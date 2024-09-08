@@ -3,7 +3,8 @@ This simple project aims to consume a time api and return data according to the 
 
 ## Executing a request /GET
 
-![WhatsApp Image 2024-09-08 at 18 06 06](https://github.com/user-attachments/assets/a223cb2c-8298-4357-a93c-ee9b17b57a1a)
+![WhatsApp Image 2024-09-08 at 18 06 06 (2)](https://github.com/user-attachments/assets/58180464-2471-4227-8480-817902ea4445)
+
 The API returns weather data such as description, temperature, temperature sensation, humidity and pressure.
 Search examples: London, New York, São Paulo, Tokyo, Paris...
 
