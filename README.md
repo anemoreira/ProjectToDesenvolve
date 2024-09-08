@@ -7,7 +7,7 @@ This simple project aims to consume a time api and return data according to the 
 The API returns weather data such as description, temperature, temperature sensation, humidity and pressure.
 Search examples: London, New York, São Paulo, Tokyo, Paris...
 
-![image](https://github.com/user-attachments/assets/535f1cfb-c54c-4864-8a68-67bc3a4fb4a4)
+![image](https://github.com/user-attachments/assets/1afbf20e-0168-4469-87a5-40b4b2fe26e8)
 
 *BDD*
 Feature: Weather query
@@ -16,19 +16,19 @@ Feature: Weather query
     Given that the user is on the home page\
     When the user enters “London” in the city field\
     And clicks the “Search Weather” button\
-    Then the weather information for “London” should be displayed\
+    Then the weather information for “London” should be displayed
 
   Scenario: Display error message for an invalid city
     Given that the user is on the home page\
     When the user enters “Invalid City” in the city field\
     And clicks the “Search Weather” button\
-    Then an error message should be displayed\
+    Then an error message should be displayed
 
   Scenario: Display a warning if no city name is entered
     Given that the user is on the home page\
     When the user does not enter any text in the city field\
     And clicks the “Search Weather” button\
-    Then a warning message should be displayed\
+    Then a warning message should be displayed
 
 
 
