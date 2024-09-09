@@ -33,7 +33,10 @@ Feature: Weather query
 
 ### Metrics
 ![image](https://github.com/user-attachments/assets/44eadc52-8336-4b7f-a74d-6b3302377270)
+
 This project is configured to interact with prometheus and grafana to visualize metrics
+
+Em andamento...
 
 
 
